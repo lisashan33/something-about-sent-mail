@@ -9,9 +9,9 @@ import csv
 
 config = dotenv_values("project_mail.env")  # 密碼存取區
 
-sender = "lisa51035@gmail.com" # 寄件者mail
+sender = "XXXXXXXX@gmail.com" # 寄件者mail
 password = config["password"] # 寄件者密碼
-receiver = ["chiashan.shan33@gmail.com","lisa51035@gmail.com"] # 收件者
+receiver = ["XXXXXXXX@gmail.com","OOOOOOOO@gmail.com"] # 收件者
 
 message = MIMEMultipart()
 
