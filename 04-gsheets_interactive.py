@@ -18,7 +18,7 @@ sht = googlesheet.open_by_url(
     "https://docs.google.com/spreadsheets/d/1JWYslMV8nbI_E5xNOQ1vdPBN0yErEyKBB_D04iB8aIM/edit?usp=sharing") # googlesheet連結
 
 config = dotenv_values("project_mail.env") 
-sender = "lisa51035@gmail.com"
+sender = "XXXXXXXX@gmail.com"
 password = config["password"]
 
 worksheet = sht[0]
